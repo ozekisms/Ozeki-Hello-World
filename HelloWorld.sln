@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D928EEC3-5DCB-438D-A45F-F40FA1B47DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F8DC1500-5223-47C4-A9BA-FE630B8E9F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzApp.HelloWorld", "OzApp.HelloWorld\OzApp.HelloWorld.csproj", "{EC06BF61-F2FB-4AED-BDDB-64740F321E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D928EEC3-5DCB-438D-A45F-F40FA1B47DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D928EEC3-5DCB-438D-A45F-F40FA1B47DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D928EEC3-5DCB-438D-A45F-F40FA1B47DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D928EEC3-5DCB-438D-A45F-F40FA1B47DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC06BF61-F2FB-4AED-BDDB-64740F321E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC06BF61-F2FB-4AED-BDDB-64740F321E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC06BF61-F2FB-4AED-BDDB-64740F321E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC06BF61-F2FB-4AED-BDDB-64740F321E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC06BF61-F2FB-4AED-BDDB-64740F321E7E} = {F8DC1500-5223-47C4-A9BA-FE630B8E9F19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {243462B9-C87D-4782-BD6E-E066FC878238}
+	EndGlobalSection
+EndGlobal
