@@ -34,15 +34,17 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Outsourced\OzekiTicket\OzekiTicket\Base\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Base\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Npgsql">
-      <HintPath>..\..\..\..\Outsourced\OzekiTicket\OzekiTicket\Base\Npgsql.dll</HintPath>
+      <HintPath>..\Base\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="Oracle.ManagedDataAccess">
-      <HintPath>..\..\..\..\Outsourced\OzekiTicket\OzekiTicket\Base\Oracle.ManagedDataAccess.dll</HintPath>
+      <HintPath>..\Base\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="OzApp.ResourceLibrary">
+      <HintPath>..\Base\OzApp.ResourceLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Ozeki.Base">
       <HintPath>..\Base\Ozeki.Base.dll</HintPath>
@@ -50,11 +52,59 @@
     <Reference Include="Ozeki.Common">
       <HintPath>..\Base\Ozeki.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Ozeki.Ext.Api.Http">
+      <HintPath>..\Base\Ozeki.Ext.Api.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Api.Messaging">
+      <HintPath>..\Base\Ozeki.Ext.Api.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Business">
+      <HintPath>..\Base\Ozeki.Ext.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Business.App">
+      <HintPath>..\Base\Ozeki.Ext.Business.App.dll</HintPath>
+    </Reference>
     <Reference Include="Ozeki.Ext.Database">
-      <HintPath>..\..\..\..\Outsourced\OzekiTicket\OzekiTicket\Base\Ozeki.Ext.Database.dll</HintPath>
+      <HintPath>..\Base\Ozeki.Ext.Database.dll</HintPath>
     </Reference>
     <Reference Include="Ozeki.Ext.Database.Windows">
-      <HintPath>..\..\..\..\Outsourced\OzekiTicket\OzekiTicket\Base\Ozeki.Ext.Database.Windows.dll</HintPath>
+      <HintPath>..\Base\Ozeki.Ext.Database.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Email">
+      <HintPath>..\Base\Ozeki.Ext.Email.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Export">
+      <HintPath>..\Base\Ozeki.Ext.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.International">
+      <HintPath>..\Base\Ozeki.Ext.International.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.OzekiAccount">
+      <HintPath>..\Base\Ozeki.Ext.OzekiAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P">
+      <HintPath>..\Base\Ozeki.Ext.P2P.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.Extra">
+      <HintPath>..\Base\Ozeki.Ext.P2P.Extra.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.GUI">
+      <HintPath>..\Base\Ozeki.Ext.P2P.GUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.S2S">
+      <HintPath>..\Base\Ozeki.Ext.P2P.S2S.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.Server">
+      <HintPath>..\Base\Ozeki.Ext.P2P.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.ShareConnection">
+      <HintPath>..\Base\Ozeki.Ext.P2P.ShareConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.P2P.Transport">
+      <HintPath>..\Base\Ozeki.Ext.P2P.Transport.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Ext.Tasks">
+      <HintPath>..\Base\Ozeki.Ext.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Ozeki.Gui">
       <HintPath>..\Base\Ozeki.Gui.dll</HintPath>
@@ -62,8 +112,14 @@
     <Reference Include="Ozeki.Libs">
       <HintPath>..\Base\Ozeki.Libs.dll</HintPath>
     </Reference>
+    <Reference Include="Ozeki.Libs.AForge">
+      <HintPath>..\Base\Ozeki.Libs.AForge.dll</HintPath>
+    </Reference>
     <Reference Include="Ozeki.Libs.BouncyCastle">
       <HintPath>..\Base\Ozeki.Libs.BouncyCastle.dll</HintPath>
+    </Reference>
+    <Reference Include="Ozeki.Libs.Hardcodet">
+      <HintPath>..\Base\Ozeki.Libs.Hardcodet.dll</HintPath>
     </Reference>
     <Reference Include="Ozeki.Libs.OZX">
       <HintPath>..\Base\Ozeki.Libs.OZX.dll</HintPath>
